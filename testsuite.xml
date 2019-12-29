@@ -4,7 +4,7 @@
 	<test name="Smoke test_Chrome">
 	<!--  <parameter name="browser" value="FIREFOX" />-->
 		<classes>
-			<class name="TestCases.Homepage" />
+			<class name="Homepage" />
 		</classes>
 	</test>
 </suite>
