@@ -1,5 +1,5 @@
-set projectLocation=C:\Program Files (x86)\Jenkins\workspace\HappyTrip-testcases
+set projectLocation=D:\Saritha\Saritha\seleniumTraining\GIT-Selenium\HappyTripTestCases
 cd %projectLocation%
 set classpath=%projectLocation%\bin;%projectLocation%\lib\*
-java org.testng.TestNG %projectLocation%\testsuite.xml
+java org.testng.TestNG testng.xml
 pause
