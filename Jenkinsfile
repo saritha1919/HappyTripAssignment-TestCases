@@ -14,7 +14,7 @@ pipeline {
                    steps { 
                       powershell 'java -version' 
                       powershell 'mvn -version' 
-                      powershell 'mvn verify' 
+                      powershell 'mvn -Dmaven.test.failure.ignore=true install' 
                     } 
                  } 
             }
