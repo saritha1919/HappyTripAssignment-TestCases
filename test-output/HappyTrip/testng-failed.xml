@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [HappyTrip]">
+  <test name="Smoke test_Chrome(failed)">
+    <classes>
+      <class name="TestCases.Homepage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="LoginWithValidCred"/>
+        </methods>
+      </class> <!-- TestCases.Homepage -->
+    </classes>
+  </test> <!-- Smoke test_Chrome(failed) -->
+</suite> <!-- Failed suite [HappyTrip] -->

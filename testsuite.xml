@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+ <suite name="HappyTrip" configfailurepolicy="continue">
+	<test name="Smoke test_Chrome">
+	<!--  <parameter name="browser" value="FIREFOX" />-->
+		<classes>
+			<class name="TestCases.Homepage" />
+		</classes>
+	</test>
+</suite>
