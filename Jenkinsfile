@@ -14,7 +14,7 @@ pipeline {
                    steps { 
                       powershell 'java -version' 
                       powershell 'mvn -version' 
-                      powershell 'mvn -Dmaven.test.failure.ignore=true install' 
+                      bat label: '', script: 'testNGBatchfile.bat' 
                     } 
                  } 
             }
