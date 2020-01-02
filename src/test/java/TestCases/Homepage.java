@@ -14,7 +14,7 @@ public class Homepage extends BaseTestClass{
 	{
 		 driver.get("http://172.30.12.167:8085/HappyTripAssignment/");
 		 driver.findElement(By.xpath("//*[@id=\"global\"]/li[2]/a")).click();
-		 Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"Wrapper\"]/div[1]/blockquote/h3")).getText(), "SWITCH TO LUMA");
+		 Assert.assertEquals(driver.findElement(By.xpath("//*[@id=\"Wrapper\"]/div[1]/blockquote/h3")).getText(), "SWITCH TO LUMA saritha");
 	}
 
 }
