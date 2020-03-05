@@ -1,4 +1,4 @@
-package com.test.utilities;
+package TestCases;
 
 
 import java.io.FileNotFoundException;
