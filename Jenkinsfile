@@ -12,10 +12,7 @@ pipeline {
                            maven 'Maven' 
                     } 
                    steps { 
-                      powershell 'java -version' 
-                      powershell 'mvn -version' 
-                     // bat label: '', script: 'testNGBatchfile.bat' 
-			   powershell 'mvn test -Denvironment=${env}'
+                     bat label: '', script: 'mvn test -Denvironment=${env}'
                     } 
                  } 
             }
