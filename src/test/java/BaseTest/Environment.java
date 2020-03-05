@@ -1,4 +1,4 @@
-package com.test.utilities;
+package BaseTest;
 
 import org.aeonbits.owner.Config;
 
