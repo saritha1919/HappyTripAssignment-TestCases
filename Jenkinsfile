@@ -15,7 +15,7 @@ pipeline {
                       powershell 'java -version' 
                       powershell 'mvn -version' 
                      // bat label: '', script: 'testNGBatchfile.bat' 
-			   powershell 'mvn test'
+			   powershell 'mvn test -Denvironment=${env}'
                     } 
                  } 
             }
