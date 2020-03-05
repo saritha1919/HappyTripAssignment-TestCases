@@ -11,6 +11,12 @@ public class BaseTestClass {
 	
 	public WebDriver driver;
 	
+	 @Parameters({"env"})
+      @BeforeMethod(alwaysRun = true)
+      public void beforeTest(final String env) {
+        String baseUrl = env;
+      }
+
 	@BeforeClass(alwaysRun = true)
 	public void setUp() {	
 		driver = new BrowserDriver("CHROME"); 	
